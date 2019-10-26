@@ -5,8 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Al-Maha Group</title>
-    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./bootstrap.min (1).css" />
     <style>
+      body {
+        --background-size: 30px;
+        --background-position: 15px;
+        background-image: radial-gradient(
+            closest-side,
+            transparent 0%,
+            transparent 75%,
+            #b6cc66 76%,
+            #b6cc66 85%,
+            #edffdb 86%,
+            #edffdb 94%,
+            #ffffff 95%,
+            #ffffff 103%,
+            #d9e6a7 104%,
+            #d9e6a7 112%,
+            #798b3c 113%,
+            #798b3c 121%,
+            #ffffff 122%,
+            #ffffff 130%,
+            #e0ead7 131%,
+            #e0ead7 140%
+          ),
+          radial-gradient(
+            closest-side,
+            transparent 0%,
+            transparent 75%,
+            #b6cc66 76%,
+            #b6cc66 85%,
+            #edffdb 86%,
+            #edffdb 94%,
+            #ffffff 95%,
+            #ffffff 103%,
+            #d9e6a7 104%,
+            #d9e6a7 112%,
+            #798b3c 113%,
+            #798b3c 121%,
+            #ffffff 122%,
+            #ffffff 130%,
+            #e0ead7 131%,
+            #e0ead7 140%
+          );
+        background-size: var(--background-size) var(--background-size);
+        background-color: #c8d3a7;
+        background-position: 0 0, var(--background-position) var(--background-position);
+      }
+
+      .container {
+        background-color: #edffdb;
+        margin: 30px auto;
+      }
+
+      .row.justify-content-md-center .col-sm {
+        text-align: center;
+        padding: 30px;
+      }
+
       .btn-group > .btn:not(:first-child),
       .btn-group > .btn-group:not(:first-child) {
         margin-left: -1px;
@@ -20,123 +76,142 @@
   </head>
   <body>
     <main class="container">
-      <div class="btn-group btn-lg btn-block" role="group">
-        <a class="btn btn-outline-primary" href="#">
-          Maha of Emirates General Transportation Est.
-        </a>
-        <button
-          class="btn btn-primary dropdown-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#maha"
-        ></button>
-      </div>
-
-      <div class="collapse" id="maha">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-          squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident.
+      <div class="row justify-content-md-center">
+        <div class="col-sm">
+          <img
+            src="./img/ALMAHA-Transporting.png"
+            alt="Almaha Group Logo"
+            height="500"
+            width="700"
+          />
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="btn-group btn-lg btn-block" role="group">
+            <a class="btn btn-outline-success" href="http://almahagroup.ae/home.html">
+              Maha of Emirates General Transportation Est.
+            </a>
+            <button
+              class="btn btn-success dropdown-toggle"
+              type="button"
+              data-toggle="collapse"
+              data-target="#maha"
+            ></button>
+          </div>
 
-      <div class="btn-group btn-lg btn-block" role="group">
-          <a class="btn btn-outline-primary" href="#">
-            Maha Emirates General Contracting Est..
-          </a>
-          <button
-            class="btn btn-primary dropdown-toggle"
-            type="button"
-            data-toggle="collapse"
-            data-target="#contracting"
-          ></button>
-        </div>
-  
-        <div class="collapse" id="contracting">
-          <div class="card card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-            squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-            sapiente ea proident.
+          <div class="collapse" id="maha">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+              sapiente ea proident.
+            </div>
           </div>
         </div>
+        <div class="col-sm">
+          <div class="btn-group btn-lg btn-block" role="group">
+            <button
+              class="btn btn-outline-success"
+              type="button"
+              data-toggle="collapse"
+              data-target="#contracting"
+            >
+              Maha Emirates General Contracting Est..
+            </button>
+          </div>
 
-      <div class="btn-group btn-lg btn-block" role="group">
-        <a class="btn btn-outline-primary" href="#">
-          National Nursery
-        </a>
-        <button
-          class="btn btn-primary dropdown-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#nursery"
-        ></button>
-      </div>
+          <div class="collapse" id="contracting">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+              sapiente ea proident.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="btn-group btn-lg btn-block" role="group">
+            <a class="btn btn-outline-success" href="http://nationaln.ae/">
+              National Nursery
+            </a>
+            <button
+              class="btn btn-success dropdown-toggle"
+              type="button"
+              data-toggle="collapse"
+              data-target="#nursery"
+            ></button>
+          </div>
 
-      <div class="collapse" id="nursery">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-          squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident.
+          <div class="collapse" id="nursery">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+              sapiente ea proident.
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="btn-group btn-lg btn-block" role="group">
-        <a class="btn btn-outline-primary" href="#">
-          Dr. Firas Dental and Orthodontic Center L.LC
-        </a>
-        <button
-          class="btn btn-primary dropdown-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#firas"
-        ></button>
-      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div class="btn-group btn-lg btn-block" role="group">
+            <a class="btn btn-outline-success" href="https://www.firasdoc.com/">
+              Dr. Firas Dental and Orthodontic Center L.LC
+            </a>
+            <button
+              class="btn btn-success dropdown-toggle"
+              type="button"
+              data-toggle="collapse"
+              data-target="#firas"
+            ></button>
+          </div>
 
-      <div class="collapse" id="firas">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-          squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident.
+          <div class="collapse" id="firas">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+              sapiente ea proident.
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="col-sm">
+          <div class="btn-group btn-lg btn-block" role="group">
+            <button
+              class="btn btn-outline-success"
+              type="button"
+              data-toggle="collapse"
+              data-target="#shamsin"
+            >
+              Shamsin Sweets & Bakeries
+            </button>
+          </div>
 
-      <div class="btn-group btn-lg btn-block" role="group">
-        <a class="btn btn-outline-primary" href="#">
-          Shamsin Sweets & Bakeries
-        </a>
-        <button
-          class="btn btn-primary dropdown-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#shamsin"
-        ></button>
-      </div>
-
-      <div class="collapse" id="shamsin">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-          squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident.
+          <div class="collapse" id="shamsin">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+              sapiente ea proident.
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="col-sm">
+          <div class="btn-group btn-lg btn-block" role="group">
+            <button
+              class="btn btn-outline-success"
+              type="button"
+              data-toggle="collapse"
+              data-target="#cafe"
+            >
+              Firenze Cafe
+            </button>
+          </div>
 
-      <div class="btn-group btn-lg btn-block" role="group">
-        <a class="btn btn-outline-primary" href="#">
-          Firenze Cafe
-        </a>
-        <button
-          class="btn btn-primary dropdown-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#cafe"
-        ></button>
-      </div>
-
-      <div class="collapse" id="cafe">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-          squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-          sapiente ea proident.
+          <div class="collapse" id="cafe">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+              sapiente ea proident.
+            </div>
+          </div>
         </div>
       </div>
     </main>
