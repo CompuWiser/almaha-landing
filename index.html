@@ -10,51 +10,59 @@
       body {
         --background-size: 30px;
         --background-position: 15px;
+        --color-one: #798b3c;
+        --color-two: #b6cc66;
+        --color-three: #d9e6a7;
+        --color-background: #c8d3a7;
+        --color-four: #e0ead7;
+        --color-five: #edffdb;
+        --color-six: #ffffff;
+        
         background-image: radial-gradient(
             closest-side,
             transparent 0%,
             transparent 75%,
-            #b6cc66 76%,
-            #b6cc66 85%,
-            #edffdb 86%,
-            #edffdb 94%,
-            #ffffff 95%,
-            #ffffff 103%,
-            #d9e6a7 104%,
-            #d9e6a7 112%,
-            #798b3c 113%,
-            #798b3c 121%,
-            #ffffff 122%,
-            #ffffff 130%,
-            #e0ead7 131%,
-            #e0ead7 140%
+            var(--color-two) 76%,
+            var(--color-two) 85%,
+            var(--color-five) 86%,
+            var(--color-five) 94%,
+            var(--color-six) 95%,
+            var(--color-six) 103%,
+            var(--color-three) 104%,
+            var(--color-three) 112%,
+            var(--color-one) 113%,
+            var(--color-one) 121%,
+            var(--color-six) 122%,
+            var(--color-six) 130%,
+            var(--color-four) 131%,
+            var(--color-four) 140%
           ),
           radial-gradient(
             closest-side,
             transparent 0%,
             transparent 75%,
-            #b6cc66 76%,
-            #b6cc66 85%,
-            #edffdb 86%,
-            #edffdb 94%,
-            #ffffff 95%,
-            #ffffff 103%,
-            #d9e6a7 104%,
-            #d9e6a7 112%,
-            #798b3c 113%,
-            #798b3c 121%,
-            #ffffff 122%,
-            #ffffff 130%,
-            #e0ead7 131%,
-            #e0ead7 140%
+            var(--color-two) 76%,
+            var(--color-two) 85%,
+            var(--color-five) 86%,
+            var(--color-five) 94%,
+            var(--color-six) 95%,
+            var(--color-six) 103%,
+            var(--color-three) 104%,
+            var(--color-three) 112%,
+            var(--color-one) 113%,
+            var(--color-one) 121%,
+            var(--color-six) 122%,
+            var(--color-six) 130%,
+            var(--color-four) 131%,
+            var(--color-four) 140%
           );
         background-size: var(--background-size) var(--background-size);
-        background-color: #c8d3a7;
+        background-color: var(--color-background);
         background-position: 0 0, var(--background-position) var(--background-position);
       }
 
       .container {
-        background-color: #edffdb;
+        background-color: #fff;
         margin: 30px auto;
       }
 
@@ -72,6 +80,13 @@
       .btn-group-lg > .btn {
         padding: 0.5rem 0;
       }
+
+      img.card-img-top.p-3 {
+        max-width: 100%;
+        max-height: 100%;
+        height: 220px;
+        width:auto;
+      }
     </style>
   </head>
   <body>
@@ -81,139 +96,89 @@
           <img
             src="./img/ALMAHA-Transporting.png"
             alt="Almaha Group Logo"
-            height="500"
-            width="700"
+            height="350"
           />
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm">
-          <div class="btn-group btn-lg btn-block" role="group">
-            <a class="btn btn-outline-success" href="http://almahagroup.ae/home.html">
-              Maha of Emirates General Transportation Est.
-            </a>
-            <button
-              class="btn btn-success dropdown-toggle"
-              type="button"
-              data-toggle="collapse"
-              data-target="#maha"
-            ></button>
-          </div>
 
-          <div class="collapse" id="maha">
-            <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-              sapiente ea proident.
+      <div class="card-deck mb-3">
+        <div class="card">
+          <img class="card-img-top p-3" src="./img/ALMAHA-Transporting.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Maha of Emirates General Transportation Est.</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </p>
+            
+          </div>
+          <div class="card-body">
+              <a href="http://almahagroup.ae/home.html" class="card-link">almahagroup.ae</a>
             </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top p-3" src="./img/ALMAHA-Contracting.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Maha Emirates General Contracting Est.</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </p>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="btn-group btn-lg btn-block" role="group">
-            <button
-              class="btn btn-outline-success"
-              type="button"
-              data-toggle="collapse"
-              data-target="#contracting"
-            >
-              Maha Emirates General Contracting Est..
-            </button>
-          </div>
+        <div class="card">
+          <img class="card-img-top p-3" src="./img/NN-Logo.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">National Nursery</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </p>
 
-          <div class="collapse" id="contracting">
-            <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-              sapiente ea proident.
+          </div>
+          <div class="card-body">
+              <a href="http://nationaln.ae/" class="card-link">nationaln.ae</a>
             </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="btn-group btn-lg btn-block" role="group">
-            <a class="btn btn-outline-success" href="http://nationaln.ae/">
-              National Nursery
-            </a>
-            <button
-              class="btn btn-success dropdown-toggle"
-              type="button"
-              data-toggle="collapse"
-              data-target="#nursery"
-            ></button>
-          </div>
-
-          <div class="collapse" id="nursery">
-            <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-              sapiente ea proident.
-            </div>
-          </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm">
-          <div class="btn-group btn-lg btn-block" role="group">
-            <a class="btn btn-outline-success" href="https://www.firasdoc.com/">
-              Dr. Firas Dental and Orthodontic Center L.LC
-            </a>
-            <button
-              class="btn btn-success dropdown-toggle"
-              type="button"
-              data-toggle="collapse"
-              data-target="#firas"
-            ></button>
-          </div>
+      <div class="card-deck pb-3">
+        <div class="card">
+          <img class="card-img-top p-3" src="./img/DrFiras.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Dr. Firas Dental and Orthodontic Center L.LC</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </p>
 
-          <div class="collapse" id="firas">
-            <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-              sapiente ea proident.
+          </div>
+          <div class="card-body">
+              <a href="https://www.firasdoc.com/" class="card-link">firasdoc.com</a>
             </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top p-3" src="./img/Shamsin-Logo.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Shamsin Sweets & Bakeries</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </p>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="btn-group btn-lg btn-block" role="group">
-            <button
-              class="btn btn-outline-success"
-              type="button"
-              data-toggle="collapse"
-              data-target="#shamsin"
-            >
-              Shamsin Sweets & Bakeries
-            </button>
-          </div>
-
-          <div class="collapse" id="shamsin">
-            <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-              sapiente ea proident.
-            </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="btn-group btn-lg btn-block" role="group">
-            <button
-              class="btn btn-outline-success"
-              type="button"
-              data-toggle="collapse"
-              data-target="#cafe"
-            >
-              Firenze Cafe
-            </button>
-          </div>
-
-          <div class="collapse" id="cafe">
-            <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-              ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-              sapiente ea proident.
-            </div>
+        <div class="card">
+          <img class="card-img-top p-3" src="./img/FrenzeCafe-Logo.png" alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Firenze Cafe</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.
+            </p>
           </div>
         </div>
       </div>
+    </div>
     </main>
 
     <script
