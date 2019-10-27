@@ -59,16 +59,19 @@ body {
 }
 
 .container > .row > div > img {
-  max-width: 100%;
-  max-height: 100%;
+  margin-top: -70px;
+  max-height: 165%;
 }
 
 .card-deck .card img {
   display: block;
-  max-width: 100%;
-  max-height: 100%;
   margin: auto auto;
-  width: auto;
+  width: 75%;
+}
+
+.card-deck .card img.svg {
+  width: 150%;
+  margin-top: -12%;
 }
 
 .card-top-image {
