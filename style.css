@@ -1,6 +1,9 @@
 body {
+  background-image: url('./img/new/background/background-2.svg');
+  background-color: #8da04a;
+  /*
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg');
-  /* --background-size: 30px;
+  --background-size: 30px;
   --background-position: 15px;
   --color-one: #798b3c;
   --color-two: #b6cc66;
