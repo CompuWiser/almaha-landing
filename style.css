@@ -58,30 +58,25 @@ body {
   margin: 30px auto;
 }
 
+.row.justify-content-md-center .col-sm {
+  text-align: center;
+  padding: 30px;
+  height: 440px;
+}
+
 .container > .row > div > img {
-  margin-top: -70px;
-  max-height: 165%;
+  max-height: 100%;
 }
 
 .card-deck .card img {
   display: block;
   margin: auto auto;
-  width: 75%;
-}
-
-.card-deck .card img.svg {
-  width: 150%;
-  margin-top: -12%;
+  width: 100%;
 }
 
 .card-top-image {
   height: 290px;
-}
-
-.row.justify-content-md-center .col-sm {
-  text-align: center;
-  padding: 30px;
-  height: 350px
+  padding: 20px;
 }
 
 .btn-group > .btn:not(:first-child),
