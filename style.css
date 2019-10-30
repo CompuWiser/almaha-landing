@@ -72,6 +72,7 @@ body {
   display: block;
   margin: auto auto;
   width: 100%;
+  max-height: 100%;
 }
 
 .card-top-image {
@@ -93,6 +94,12 @@ div.card-footer.h5 {
   margin-bottom: 0;
 }
 
+@media (min-width: 768px) {
+  .container {
+      max-width: 100%;
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1280px;
@@ -107,7 +114,12 @@ div.card-footer.h5 {
 
 @media (min-width: 576px) {
   .card-deck .card {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    min-width: 330px;
   }
 }
+
