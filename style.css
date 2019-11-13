@@ -1,6 +1,7 @@
 body {
   background-image: url('./img/new/background/background-4.svg');
-  background-color: #8da04a;
+  background-color: #d6d6d6;
+  /* background-color: #8da04a; */
   background-attachment: fixed;
   background-size: cover;
   background-position: left top;
