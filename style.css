@@ -7,59 +7,6 @@ body {
   background-size: 400px;
   background-position: left top;
   background-repeat: repeat;
-  /*
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg');
-  --background-size: 30px;
-  --background-position: 15px;
-  --color-one: #798b3c;
-  --color-two: #b6cc66;
-  --color-three: #d9e6a7;
-  --color-background: #c8d3a7;
-  --color-four: #e0ead7;
-  --color-five: #edffdb;
-  --color-six: #ffffff;
-  
-  background-image: radial-gradient(
-      closest-side,
-      transparent 0%,
-      transparent 75%,
-      var(--color-two) 76%,
-      var(--color-two) 85%,
-      var(--color-five) 86%,
-      var(--color-five) 94%,
-      var(--color-six) 95%,
-      var(--color-six) 103%,
-      var(--color-three) 104%,
-      var(--color-three) 112%,
-      var(--color-one) 113%,
-      var(--color-one) 121%,
-      var(--color-six) 122%,
-      var(--color-six) 130%,
-      var(--color-four) 131%,
-      var(--color-four) 140%
-    ),
-    radial-gradient(
-      closest-side,
-      transparent 0%,
-      transparent 75%,
-      var(--color-two) 76%,
-      var(--color-two) 85%,
-      var(--color-five) 86%,
-      var(--color-five) 94%,
-      var(--color-six) 95%,
-      var(--color-six) 103%,
-      var(--color-three) 104%,
-      var(--color-three) 112%,
-      var(--color-one) 113%,
-      var(--color-one) 121%,
-      var(--color-six) 122%,
-      var(--color-six) 130%,
-      var(--color-four) 131%,
-      var(--color-four) 140%
-    );
-  background-size: var(--background-size) var(--background-size);
-  background-color: var(--color-background);
-  background-position: 0 0, var(--background-position) var(--background-position); */
 }
 
 .container {
@@ -109,13 +56,7 @@ body {
 div.card-footer.h5 {
   margin-bottom: 0;
 }
-/* 
-@media (min-width: 768px) {
-  .container {
-      max-width: 100%;
-  }
-}
- */
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1280px;
@@ -132,9 +73,3 @@ div.card-footer.h5 {
     min-width: 330px;
   }
 }
-
-/* @media (min-width: 518px) {
-  .container {
-    margin: 0 auto;
-  }
-} */
